@@ -5,9 +5,9 @@
     /////////////////////////////////////////////////////////////
     function getScale() {
 
-      var x = 2.0000
-      var y = 2.0000
-      var z = 2.0000
+      var x = 1.0000
+      var y = 1.0000
+      var z = 1.0000
 
       return new THREE.Vector3(x, y, z);
     }
@@ -27,7 +27,7 @@
 
     function getRotation() {
 
-      var x = 0.00
+      var x = 90.00
       var y = 0.00
       var z = 0.00
 
@@ -50,9 +50,9 @@
 
     function setTranslation(pointdata) {
 
-      var x = pointdata.point.x - 9;
-      var y = pointdata.point.y - 9;
-      var z = pointdata.point.z + 3.5;
+      var x = pointdata.point.x ;
+      var y = pointdata.point.y + 15;
+      var z = pointdata.point.z + 11;
 
       return new THREE.Vector3(x, y, z);
     }
